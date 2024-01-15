@@ -1,0 +1,110 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+
+header{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+nav,ul,li,a{
+    text-align: center; 
+    color:gray; 
+    margin-bottom:10px;
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+   
+}
+
+.container{
+    display:flex;
+    background-color: white;
+    /* flex-wrap: nowrap; */
+    align-items: center;
+    justify-content:center;
+    /* margin-right: 100px; */
+    flex-wrap: wrap;
+    
+
+    
+    
+}
+img{
+    width: 190px;
+    height: 200px;
+    display: inline;
+    align-items: center;
+    box-sizing:border-box;
+    margin-left: 15px;
+}
+.box1{
+    background-color: white;
+    border:1px solid black;
+    height:310px;
+    margin:2px;
+    padding:5px;
+    width: 250px;
+    display: inline-block;
+
+
+    
+    
+}
+button{
+    margin-left:50px;
+    background-color: black;
+    color: white;
+  
+}
+p{
+    margin-left: 10px;
+}
+
+footer{
+    background-color: black;
+    margin-top: 5px;
+   
+}
+
+h2{
+    color:white;
+    text-align: center;
+   
+}
+label{
+    color: aliceblue;
+    margin-left:560px;
+    margin-top:10px;
+
+}
+input{
+     width: 200px;
+     padding-left:5px;
+     margin-left:20px;
+     margin-top: 10px;
+     box-sizing: content-box;
+}
+
+#btn{
+    align-items: center;
+    width:600px;
+    background-color: yellow;
+    height: 30px;
+    margin-left: 400px;
+    margin-top:10px;
+    margin-bottom:50px;
+}
+#age{
+    margin-right:0px;
+}
+#nme{
+    margin-left: 6px;
+}
+#mail{
+    margin-left: 5px;
+}
